@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/mainMapsFragment">
+
+    <fragment
+        android:id="@+id/mainMapsFragment"
+        android:name="com.aminivan.mapslearn.GmapsFragment"
+        android:label="MainMaps"
+        tools:layout="@layout/fragment_gmaps" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.aminivan.mapslearn.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/menuMaps"
+        android:name="com.aminivan.mapslearn.BusFragment"
+        android:label="fragment_bus"
+        tools:layout="@layout/fragment_bus" />
+    <fragment
+        android:id="@+id/halteInfoFragment"
+        android:name="com.aminivan.mapslearn.HalteInfoFragment"
+        android:label="InfoHalte"
+        tools:layout="@layout/fragment_halte_info" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.aminivan.mapslearn.SettingsFragment"
+        android:label="Settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/CSFragment"
+        android:name="com.aminivan.mapslearn.CSFragment"
+        android:label="CustomerService"
+        tools:layout="@layout/fragment_c_s" />
+</navigation>

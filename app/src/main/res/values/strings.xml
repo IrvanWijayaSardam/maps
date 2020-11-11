@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MapsLearn</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="irvan_wijaya">Irvan Wijaya</string>
+    <string name="businfo">businfo</string>
+    <string name="customerservice">customerservice</string>
+    <string name="infohalte">infohalte</string>
+    <string name="profile">Profile</string>
+    <string name="settings">settings</string>
+</resources>

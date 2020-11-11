@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Trip Information">
+        <menu>
+
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/loc"
+                android:title="MainMaps"/>
+
+
+            <item
+                android:id="@+id/menuMaps"
+                android:icon="@drawable/bus"
+                android:title="Bus Information"/>
+
+            <item
+                android:id="@+id/halteInfoFragment"
+                android:icon="@drawable/busstop"
+                android:title="Halte"/>
+
+        </menu>
+
+
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/profileFragment"
+                android:icon="@drawable/profile"
+                android:title="Profile Management"/>
+
+            <item
+                android:id="@+id/settingsFragment"
+                android:icon="@drawable/option"
+                android:title="Settings"/>
+
+            <item
+                android:id="@+id/CSFragment"
+                android:icon="@drawable/cs"
+                android:title="Customer Service"/>
+
+            <item
+                android:id="@+id/menuLogout"
+                android:icon="@drawable/logout"
+                android:title="Logout"/>
+
+        </menu>
+
+    </item>
+
+</menu>
