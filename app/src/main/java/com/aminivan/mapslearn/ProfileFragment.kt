@@ -1,5 +1,6 @@
 package com.aminivan.mapslearn
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -27,6 +28,8 @@ class ProfileFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        val intent = Intent (getActivity(), MapsActivity::class.java)
+        getActivity()?.startActivity(intent)
     }
 
     override fun onCreateView(

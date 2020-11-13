@@ -6,10 +6,9 @@
         <menu>
 
             <item
-                android:id="@+id/map"
+                android:id="@+id/GmapsFragment"
                 android:icon="@drawable/loc"
-                android:title="MainMaps"/>
-
+                android:title="Main Map"/>
 
             <item
                 android:id="@+id/menuMaps"

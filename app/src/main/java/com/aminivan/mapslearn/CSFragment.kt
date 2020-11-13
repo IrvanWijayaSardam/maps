@@ -1,10 +1,12 @@
 package com.aminivan.mapslearn
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import kotlinx.android.synthetic.main.activity_maps.*
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -27,6 +29,10 @@ class CSFragment : Fragment() {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
+        val intent = Intent (this@CSFragment.context, MainMaps::class.java)
+
+        startActivity(intent)
+
     }
 
     override fun onCreateView(
@@ -34,7 +40,7 @@ class CSFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.activity_maps, container, false)
+        return inflater.inflate(R.layout.fragment_c_s, container, false)
     }
 
     companion object {

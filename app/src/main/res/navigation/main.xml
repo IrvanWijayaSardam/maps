@@ -3,18 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    app:startDestination="@id/mainMapsFragment">
+    app:startDestination="@id/menuMaps">
 
     <fragment
-        android:id="@+id/mainMapsFragment"
+        android:id="@+id/GmapsFragment"
         android:name="com.aminivan.mapslearn.GmapsFragment"
-        android:label="MainMaps"
-        tools:layout="@layout/fragment_gmaps" />
-    <fragment
-        android:id="@+id/profileFragment"
-        android:name="com.aminivan.mapslearn.ProfileFragment"
         android:label="Profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_gmaps" />
     <fragment
         android:id="@+id/menuMaps"
         android:name="com.aminivan.mapslearn.BusFragment"
